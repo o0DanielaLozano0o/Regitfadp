@@ -1,8 +1,7 @@
 body{
-	background: url("../img/fondo.jpg");
-	background-size: cover;
 	position: relative;
 	background-attachment:  fixed;
+	font-family: 'Oswald', sans-serif;
 
 }
 form{
@@ -12,13 +11,13 @@ form{
 	
 }
 form fieldset{
-	background-color:#95EEF4;
+	background-color:#777777;
 	
 }
 form fieldset legend{
 	text-align: center;	
 	font-family: 'Oswald', sans-serif;
-	color: grey;
+	color: #000000;
 	font-size: 2em;
 
 }
@@ -38,6 +37,7 @@ form input[type="email"]{
 }
 form input[type="email"]:hover{
 	background: #ECB2FA;
+
 	
 }
 form input[type="text"]{
